@@ -8,8 +8,6 @@ The training pipeline includes bert model and model evaluation on a held-out val
  
 In addition, though it get us worse reults, the code includes data augmentation using a custom MixUp method at the embedding level and also model evaluation on a held-out validation set.
 
-The best-performing model is saved as `best_model.pt`.
-
 ## Results
 
 ### Without Augmentation on Train/Validation Set after Training
@@ -53,5 +51,4 @@ Future work could explore alternative augmentation techniques and more sophistic
 - `eval_mixup_bert.py`: Script for evaluating the BERT model trained with MixUp augmentation.
 - `preprocessing.py`: Utility functions for data preprocessing.
 - `samokat EDA.ipynb`: Jupyter notebook for exploratory data analysis.
-- `best_model.pt`: The best-performing model saved during training.
 - `dataset/`: Directory containing the dataset.
