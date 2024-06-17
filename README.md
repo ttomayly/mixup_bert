@@ -11,12 +11,12 @@ In addition, though it get us worse reults, the code includes data augmentation 
 ## Results
 
 ### Without Augmentation on Train/Validation Set after Training
-- **Train Loss:** 0.4
+- **Train Loss:** 0.5
 - **Val Loss:** 0.45
 - **Val ROC-AUC:** 0.88
 
 ### Without Augmentation on Test Set
-- **Test Loss:** 0.46
+- **Test Loss:** 0.48
 - **Test ROC-AUC:** 0.88
 
 ### With Augmentation on Train/Validation Set after Training
