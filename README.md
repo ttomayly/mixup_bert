@@ -8,6 +8,12 @@ The training pipeline includes bert model and model evaluation on a held-out val
  
 In addition, though it get us worse reults, the code includes data augmentation using a custom MixUp method at the embedding level and also model evaluation on a held-out validation set.
 
+## How to run
+
+`python -m venv venv`
+`source venv/bin/activate`
+`pip install -r requirements.txt`
+
 ## Results
 
 ### Without Augmentation on Train/Validation Set after Training
